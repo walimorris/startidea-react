@@ -5,12 +5,13 @@
 # 
 # 1. clone into your local system
 # 2. run chmod +x startidea-react.sh in directory where script lives
-# 3. (Optional) - move script to /usr/local/bin this way you can use
+# 3. (RECOMMENDED) - move script to /usr/local/bin this way you can use
 #    this script across your system without prefixing the command with
 #    the annoying './' characters. This would allow you to create 
-#    projects in your working directory across your system.
+#    projects in your working directories across your system without 
+#    needing to be in the directory where this script lives.
 #
-# Script takes AT MOST 1 arguement with following flags:
+# Script takes AT LEAST 1 arguement with following flags:
 # 
 # (Mandatory)-p : describes the project name
 #
@@ -19,7 +20,7 @@
 #                 Intellij installation in applications
 #                 
 #                 optional arguments: 
-#                 1) snap - intellij was installed via snap
+#                 1) snap - needed if intellij was installed via snap
 #
 # If you've stored script in /usr/local/bin
 # Example: startidea-react.sh -p myProject -i snap
