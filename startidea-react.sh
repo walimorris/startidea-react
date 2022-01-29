@@ -21,10 +21,17 @@
 #                 optional arguments: 
 #                 1) snap - intellij was installed via snap
 #
-# Example: ./startidea-react.sh -p myProject -i snap 
+# If you've stored script in /usr/local/bin
+# Example: startidea-react.sh -p myProject -i snap
 #
-#          launches a snap based intellij instance for your new project 
+#          launches a snap based intellij instance for your new React project 
 #          named myProject.
+# 
+# Example: startidea-react.sh -p myCoolProject 
+#
+#          searches for the latest intellij installation from applications
+#          and launches a intellij instance for your new React project named 
+#          myCoolProject
 #
 # author: Wali Morris<walimmorris@gmail.com>
 
