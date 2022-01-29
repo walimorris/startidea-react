@@ -6,7 +6,7 @@
 # 1. clone into your local system
 # 2. run chmod +x startidea-react.sh in directory where script lives
 # 3. (Optional) - move script to /usr/local/bin this way you can use
-#    this script across your system without prefixes the command with
+#    this script across your system without prefixing the command with
 #    the annoying './' characters. This would allow you to create 
 #    projects in your working directory across your system.
 #
