@@ -4,12 +4,15 @@
 # an Intellij IDEA window. 
 # 
 # 1. clone into your local system
-# 2. run chmod +x startidea-react.sh in directory where script lives
+# 2. run `chmod +x startidea-react.sh` in directory where script lives
 # 3. (RECOMMENDED) - move script to /usr/local/bin this way you can use
 #    this script across your system without prefixing the command with
 #    the annoying './' characters. This would allow you to create 
 #    projects in your working directories across your system without 
 #    needing to be in the directory where this script lives.
+#
+#    `cp startidea-react.sh /usr/local/bin/`
+#    
 #
 # Script takes AT LEAST 1 arguement with following flags:
 # 
